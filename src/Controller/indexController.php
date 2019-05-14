@@ -4,10 +4,10 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class indexController extends AbstractController
+class theClass extends theSmallClass
 {
     public function Fabrice()
     {
-        return $this->json(['name' => 'Fabriceeeeee bordel']);
+        return $this->json(['name' => 'Fabrice']);
     }
 }
