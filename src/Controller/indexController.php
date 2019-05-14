@@ -6,10 +6,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class indexController extends AbstractController
 {
-    public function fabien()
+    public function benoitXavier()
     {
-        return $this->json(['name' => 'fab']);
+        return $this->json(['name' => 'bx']);
     }
+
+    public function fabien()
+        {
+            return $this->json(['name' => 'fabien']);
+        }
 }
+
+
 
 
