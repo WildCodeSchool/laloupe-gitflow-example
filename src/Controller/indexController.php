@@ -15,4 +15,9 @@ class indexController extends AbstractController
     {
         return $this->json(['name' => 'brandon']);
     }
+
+    public function quentin()
+    {
+        return $this->json(['name' => 'quentin']);
+    }
 }
