@@ -8,6 +8,6 @@ class indexController extends AbstractController
 {
     public function Lyne()
     {
-        return $this->json(['name' => 'Lyne']);
+        return $this->json(['name' => 'Lyneeee']);
     }
 }
