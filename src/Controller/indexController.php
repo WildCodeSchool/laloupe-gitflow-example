@@ -11,6 +11,10 @@ class indexController extends AbstractController
         return $this->json(['name' => 'bx']);        
     }
 
+    public function binaLoup()
+    {
+        return $this->json(['name' => 'bx']);
+    }
 
     public function magalie()
     {
