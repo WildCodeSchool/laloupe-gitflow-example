@@ -7,8 +7,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class indexController extends AbstractController
 {
     public function benoitXavier()
+      public function thibaultG()
     {
-        return $this->json(['name' => 'bx']);        
+        return $this->json(['name' => 'thibault']);
     }
     public function thibdr()
     {
@@ -24,7 +25,7 @@ class indexController extends AbstractController
     }
     public function richard()
     {
-        return $this->json(['name' => 'richard']);
+        return $this->json(['name' => 'thibault']);
     }
   
     public function luc()
