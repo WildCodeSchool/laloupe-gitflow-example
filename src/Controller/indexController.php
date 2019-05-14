@@ -6,8 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class indexController extends AbstractController
 {
-    public function benoitXavier()
+    public function quentin()
     {
-        return $this->json(['name' => 'bx']);
+        return $this->json(['name' => 'quentin']);
     }
 }
