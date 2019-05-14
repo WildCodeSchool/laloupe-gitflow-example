@@ -6,30 +6,49 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class indexController extends AbstractController
 {
-    public function yorannelisabeth()
+    public function yorann()
     {
  
-        return $this->json(['name' => 'yorannelisabeth']);
+        return $this->json(['name' => 'yorann']);
     } 
 
         return $this->json(['name' => 'bx']);        
+    }
+    public function thibdr()
+    {
+        return $this->json(['name' => 'thibdr']);
+    }
+    public function magalie()
+    {
+        return $this->json(['name' => 'magalie']);
+    }
+    public function Lyne()
+    {
+        return $this->json(['name' => 'Lyne']);
     }
     public function richard()
     {
         return $this->json(['name' => 'richard']);
     }
-
-
+  
+    public function luc()
+    {
+        return $this->json(['name' => 'luc']);
+    }
 
     public function aurelien()
     {
         return $this->json(['name' => 'Aurelien']);
     }
-      
 
     public function thomas()
     {
         return $this->json(['name' => 'thomas']);
+    }
+
+    public function victor()
+    {
+        return $this->json(['name' => 'tshintu']);
     }
 
     public function brandon()
@@ -42,11 +61,9 @@ class indexController extends AbstractController
     {
         return $this->json(['name => 'julien']);
     }
-  
     public function xavier()
     {
         return $this->json(['name' => 'Xavier']);
     }
-
 
 }
