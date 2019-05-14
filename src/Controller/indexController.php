@@ -8,6 +8,13 @@ class indexController extends AbstractController
 {
     public function benoitXavier()
     {
+        return $this->json(['name' => 'bx']);
+    }
+
+    public function binaLoup() {
+        return $this->json(['name' => 'loup'])
+    }
+  
         return $this->json(['name' => 'bx']);        
     }
     public function thibdr()
