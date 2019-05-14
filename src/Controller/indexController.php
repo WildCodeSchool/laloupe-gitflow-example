@@ -12,11 +12,18 @@ class indexController extends AbstractController
     }
 
 
+    public function magalie()
+    {
+        return $this->json(['name' => 'magalie']);
+    }
+
+
     public function Lyne()
     {
         return $this->json(['name' => 'Lyne']);
     }
     
+
 
     public function richard()
     {
@@ -60,5 +67,6 @@ class indexController extends AbstractController
     {
         return $this->json(['name' => 'Xavier']);
     }
+
 
 }
